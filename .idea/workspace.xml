@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba46661-f341-4451-98e9-4586043ee3b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/starbucks/ObserverPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/starbucks/ObserverPatternTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java" afterPath="$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/starbucks/ProxyPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/starbucks/ProxyPatternTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,41 +24,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PinEntryMachineTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/PinEntryMachineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1260">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObserverPatternTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/ObserverPatternTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyPatternTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProxyPatternTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/ProxyPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="199">
+              <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="61" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyPad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/KeyPad.java">
+      <file leaf-file-name="CommandPatternTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="180">
+              <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyPadPressTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="170" column="1" lean-forward="false" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyPatternTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="63" column="24" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="63" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppAuthProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/AppAuthProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-355">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/Frame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="95" column="45" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCards.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/MyCards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/Screen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -65,8 +117,8 @@
       <file leaf-file-name="PinEntryMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/PinEntryMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            <state relative-caret-position="73">
+              <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,6 +130,11 @@
     <findStrings>
       <find>keypad</find>
       <find>attac</find>
+      <find>name</find>
+      <find>comma</find>
+      <find>cmd</find>
+      <find>scree</find>
+      <find>screen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -401,6 +458,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/starbucks/ObserverPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/starbucks/ProxyPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java" />
       </list>
     </option>
   </component>
@@ -503,7 +564,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ObserverPatternTest">
+  <component name="RunManager" selected="JUnit.KeyPadPressTest">
+    <configuration name="CommandPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="starbucks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="starbucks_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="starbucks" />
+      <option name="MAIN_CLASS_NAME" value="starbucks.CommandPatternTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="KeyPadPressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="starbucks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="starbucks_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="starbucks" />
+      <option name="MAIN_CLASS_NAME" value="starbucks.KeyPadPressTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ObserverPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -529,7 +640,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ObserverPatternTest.testOneKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="starbucks.*" />
@@ -540,9 +651,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="starbucks" />
-      <option name="MAIN_CLASS_NAME" value="starbucks.ObserverPatternTest" />
-      <option name="METHOD_NAME" value="testOneKey" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="starbucks.ProxyPatternTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -554,7 +665,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ObserverPatternTest.testThreeKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="starbucks.*" />
@@ -565,32 +676,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="starbucks" />
-      <option name="MAIN_CLASS_NAME" value="starbucks.ObserverPatternTest" />
-      <option name="METHOD_NAME" value="testThreeKeys" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PinEntryMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="starbucks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="starbucks_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="starbucks" />
-      <option name="MAIN_CLASS_NAME" value="starbucks.PinEntryMachineTest" />
+      <option name="MAIN_CLASS_NAME" value="starbucks.StrategyPatternTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -684,18 +770,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PinEntryMachineTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest.testOneKey" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest.testThreeKeys" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProxyPatternTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StrategyPatternTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CommandPatternTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KeyPadPressTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest.testThreeKeys" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest.testOneKey" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PinEntryMachineTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KeyPadPressTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CommandPatternTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StrategyPatternTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProxyPatternTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ObserverPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -713,40 +801,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 38m 38s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="CommandPatternTest - 2017.11.18 at 14h 19m 06s.xml">
+      <configuration name="CommandPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 45m 48s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="CommandPatternTest - 2017.11.18 at 14h 19m 24s.xml">
+      <configuration name="CommandPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 46m 25s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="CommandPatternTest - 2017.11.18 at 14h 19m 49s.xml">
+      <configuration name="CommandPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 46m 36s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="CommandPatternTest - 2017.11.18 at 14h 20m 02s.xml">
+      <configuration name="CommandPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 48m 46s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="KeyPadPressTest - 2017.11.18 at 14h 24m 40s.xml">
+      <configuration name="KeyPadPressTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 49m 39s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="ProxyPatternTest - 2017.11.18 at 14h 11m 24s.xml">
+      <configuration name="ProxyPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest - 2017.11.18 at 13h 52m 29s.xml">
-      <configuration name="ObserverPatternTest" configurationId="JUnit" />
+    <history-entry file="ProxyPatternTest - 2017.11.18 at 14h 12m 25s.xml">
+      <configuration name="ProxyPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest_testOneKey - 2017.11.18 at 13h 44m 18s.xml">
-      <configuration name="ObserverPatternTest.testOneKey" configurationId="JUnit" />
+    <history-entry file="StrategyPatternTest - 2017.11.18 at 14h 16m 32s.xml">
+      <configuration name="StrategyPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverPatternTest_testThreeKeys - 2017.11.18 at 13h 47m 39s.xml">
-      <configuration name="ObserverPatternTest.testThreeKeys" configurationId="JUnit" />
+    <history-entry file="StrategyPatternTest - 2017.11.18 at 14h 16m 47s.xml">
+      <configuration name="StrategyPatternTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PinEntryMachineTest - 2017.11.18 at 13h 37m 26s.xml">
-      <configuration name="PinEntryMachineTest" configurationId="JUnit" />
+    <history-entry file="StrategyPatternTest - 2017.11.18 at 14h 18m 01s.xml">
+      <configuration name="StrategyPatternTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="44" width="1311" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -754,7 +841,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -781,30 +868,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1821">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/IKeyPadObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -821,18 +884,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/PinEntryMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/KeyPad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        <state relative-caret-position="-715">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/KeyPad.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="252">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/PinEntryMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/PinScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -855,8 +934,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/ProxyPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="199">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/IApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/MyCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/IOrientationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="95" column="45" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/AppAuthProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/starbucks/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/StrategyPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/CommandPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/starbucks/KeyPadPressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="170" column="1" lean-forward="false" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
           <folding />
         </state>
       </provider>
