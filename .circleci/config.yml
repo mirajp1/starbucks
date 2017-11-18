@@ -38,9 +38,13 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "build.gradle" }}
         
-      # run tests!
+      - run: gradle build -x test
       - run: gradle test
-
-
-
-
+      - run: gradle shadowJar
+      - run: java -cp build/libs/starbucks-all.jar starbucks.Main
+      - store_test_results:
+          path: build/reports
+      - store_artifacts:
+          path: build/reports
+      - store_artifacts:
+          path: build/libs/starbucks-all.jar
